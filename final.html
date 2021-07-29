@@ -1,0 +1,1479 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title></title>
+  </head>
+  <style media="screen">
+  #image {
+    width: 30vw;
+    align-items: center;
+  }
+  #santaluzia {
+    display: none;
+    position: relative;
+  }
+  #lagoadaesturranha {
+    display: none;
+    position: relative;
+  }
+  #saojoao {
+    display: none;
+    position: relative;
+  }
+  #passadiçossistelo {
+    display: none;
+    position: relative;
+  }
+  #trilholagoadebertiandos {
+    display: none;
+    position: relative;
+  }
+  #trilhofojodacabrita {
+    display: none;
+    position: relative;
+  }
+  #percursodastapadas {
+    display: none;
+    position: relative;
+  }
+  #percursodasveigas {
+    display: none;
+    position: relative;
+  }
+  #castrolaboreiroacortegada {
+    display: none;
+    position: relative;
+  }
+  #trilhodamontaria {
+    display: none;
+    position: relative;
+  }
+  #ecoviadeermelo {
+    display: none;
+    position: relative;
+  }
+  #trilhodopincho {
+    display: none;
+    position: relative;
+  }
+  #trilhodoscanosdeagua {
+    display: none;
+    position: relative;
+  }
+  #trilhodossobreiros {
+    display: none;
+    position: relative;
+  }
+  #trilhodospastores {
+    display: none;
+    position: relative;
+  }
+  #praiafluvialdetaboao {
+    display: none;
+    position: relative;
+  }
+  #praiafluvialdaazenhadeestoraos {
+    display: none;
+    position: relative;
+  }
+  #praiafluvialdavaleta {
+    display: none;
+    position: relative;
+  }
+  #praiadocabedelo {
+    display: none;
+    position: relative;
+  }
+  #praiadaarda {
+    display: none;
+    position: relative;
+  }
+  #praiafluvialdalenta {
+    display: none;
+    position: relative;
+  }
+
+  #percursocastrejo {
+    display: none;
+    position: relative;
+  }
+  #trilhopreguiça {
+    display: none;
+    position: relative;
+  }
+  #trilhofenda {
+    display: none;
+    position: relative;
+  }
+  #trilhosetelagoas {
+    display: none;
+    position: relative;
+  }
+  #trilhomisarela {
+    display: none;
+    position: relative;
+  }
+  #trilhobrandassistelo {
+    display: none;
+    position: relative;
+  }
+
+  #merendassantaluzia {
+    display: none;
+    position: relative;
+  }
+  #merendasnossasenhoracabeça {
+    display: none;
+    position: relative;
+  }
+  #merendaslanheses {
+    display: none;
+    position: relative;
+  }
+  #merendasvilarmouros {
+    display: none;
+    position: relative;
+  }
+  #merendasnossasenhoraconceiçao {
+    display: none;
+    position: relative;
+  }
+  #merendasboamorte {
+    display: none;
+    position: relative;
+  }
+  #merendastaiao {
+    display: none;
+    position: relative;
+  }
+  #merendasarvore {
+    display: none;
+    position: relative;
+  }
+  #praiavilarmouros {
+    display: none;
+    position: relative;
+  }
+  #praiapinheiros {
+    display: none;
+    position: relative;
+  }
+  #praiavilarinhofurnas {
+    display: none;
+    position: relative;
+  }
+  #praiaermal {
+    display: none;
+    position: relative;
+  }
+  #praiamexico {
+    display: none;
+    position: relative;
+  }
+  #praiaalqueirao {
+    display: none;
+    position: relative;
+  }
+  #praiafortecao {
+    display: none;
+    position: relative;
+  }
+  #praiamoledo {
+    display: none;
+    position: relative;
+  }
+  #praiafozminho {
+    display: none;
+    position: relative;
+  }
+  #merendasvalinha {
+    display: none;
+    position: relative;
+  }
+  #merendasverdoejo {
+    display: none;
+    position: relative;
+  }
+  #merendasmontefaro {
+    display: none;
+    position: relative;
+  }
+  #praiagondariz {
+    display: none;
+    position: relative;
+  }
+  #trilhoentreambososrios {
+    display: none;
+    position: relative;
+  }
+  #trilhopordosol {
+    display: none;
+    position: relative;
+  }
+  #merendasmontaria {
+    display: none;
+    position: relative;
+  }
+  </style>
+   <link rel="stylesheet" href="final.css">
+  <div class="header">
+    <img src="images/logopng.png" alt="">
+
+  </div>
+  <body>
+    <div id="filtro-container">
+      <div id="filtro-text">
+      <h2>Localização</h2>
+      <br>
+      <input type="checkbox" class="radioCheck" id="vianadocastelo" onclick="check(this);"></input>
+      <label for="cores">Viana do Castelo</label>
+      <br><input type="checkbox" class="radioCheck" id="paredesdecoura" onclick="check(this);"></input>
+      <label for="cores">Paredes de Coura</label>
+      <br><input type="checkbox" class="radioCheck" id="pontedelima" onclick="check(this);"></input>
+      <label for="cores">Ponte de Lima</label>
+      <br><input type="checkbox" class="radioCheck" id="pontedabarca" onclick="check(this);"></input>
+      <label for="cores">Ponte da Barca</label>
+      <br><input type="checkbox" class="radioCheck" id="melgaço" onclick="check(this);"></input>
+      <label for="cores">Melgaço</label>
+      <br><input type="checkbox" class="radioCheck" id="arcosdevaldevez" onclick="check(this);"></input>
+      <label for="cores">Arcos de Valdevez</label>
+      <br><input type="checkbox" class="radioCheck" id="monçao" onclick="check(this);"></input>
+      <label for="cores">Monção</label>
+      <br><input type="checkbox" class="radioCheck" id="valença" onclick="check(this);"></input>
+      <label for="cores">Valença</label>
+      <br><input type="checkbox" class="radioCheck" id="cerveira" onclick="check(this);"></input>
+      <label for="cores">Cerveira</label>
+      <br><input type="checkbox" class="radioCheck" id="caminha" onclick="check(this);"></input>
+      <label for="cores">Caminha</label>
+<br><br>
+      <h2>Actividade</h2>
+      <br>
+      <input type="checkbox" class="radioCheckOne" id="trilho"></input>
+      <label for="cores">Trilho</label>
+      <br><input type="checkbox" class="radioCheckOne" id="praia"></input>
+      <label for="cores">Praia</label>
+      <br><input type="checkbox" class="radioCheckOne" id="piquenique"></input>
+      <label for="cores">Piquenique</label>
+<!--      <br><input type="checkbox" class="radioCheck" id="monumento" onclick="check(this);"></input>
+      <label for="cores">Monumentos</label>
+      <br><input type="checkbox" class="radioCheck" id="historia" onclick="check(this);"></input>
+      <label for="cores">História</label>
+      <br><input type="checkbox" class="radioCheck" id="desporto" onclick="check(this);"></input>
+      <label for="cores">Desporto</label>-->
+
+      <br><br><button id="btnbtn">Ver resultados</button>
+
+      <button id="btn2" type="submit" onClick="refreshPage()">Nova pesquisa</button>
+      </div>
+    </div>
+
+
+
+<!--
+
+     <div id="filtro-container2">
+      <div id="filtro-text2">
+      <h2>Localização</h2>
+      <br>
+<li>
+      <input type="checkbox" id="vianadocastelo"></input>
+      <label for="cores">Viana do Castelo</label>
+      <input type="checkbox" id="paredesdecoura"></input>
+      <label for="cores">Paredes de Coura</label>
+      <input type="checkbox" id="pontedelima"></input>
+      <label for="cores">Ponte de Lima</label><br>
+      <input type="checkbox" id="pontedabarca"></input>
+      <label for="cores">Ponte da Barca</label>
+      <input type="checkbox" id="melgaço"></input>
+      <label for="cores">Melgaço</label>
+      <input type="checkbox" id="arcosdevaldevez"></input>
+      <label for="cores">Arcos de Valdevez</label><br>
+      <input type="checkbox" id="monçao"></input>
+      <label for="cores">Monção</label>
+      <input type="checkbox" id="valença"></input>
+      <label for="cores">Valença</label>
+      <input type="checkbox" id="cerveira"></input>
+      <label for="cores">Cerveira</label>
+      <input type="checkbox" id="caminha"></input>
+      <label for="cores">Caminha</label></li>
+<br>
+      <h2>Actividade</h2>
+      <br>
+      <li>
+      <input type="checkbox" id="trilho"></input>
+      <label for="cores">Trilho</label>
+      <input type="checkbox" id="praia"></input>
+      <label for="cores">Praia</label>
+      <input type="checkbox" id="piquenique"></input>
+      <label for="cores">Piquenique</label>
+      <input type="checkbox" id="monumento"></input>
+      <label for="cores">Monumentos</label><br>
+      <input type="checkbox" id="historia"></input>
+      <label for="cores">História</label>
+      <input type="checkbox" id="desporto"></input>
+      <label for="cores">Desporto</label></li>
+
+      <br><button id="btnbtn">Filtrar</button>
+      <button id="btn2" type="submit" onClick="refreshPage()">Refresh</button>
+      </div>
+    </div>
+-->
+    <div class="results-countainer">
+      <div class="resultados-slider">
+        <div id="santaluzia">
+          <div class="resultados-text">
+            <h1>Monumento</h1><br>
+            <h3>Santuário de Santa Luzia</h3>
+            Viana do Castelo <br>
+            Paisagem deslumbrante sobre a cidade
+            <br>
+            <a href="https://goo.gl/maps/QKEowKgQUb82RFXZ9">Localização</a>
+          </div>
+          <div class="slideshow-container" onclick="fullsize">
+
+            <div class="mySlides1">
+              <img src="https://www.cm-castelo-paiva.pt/media/noticias/elem_media/online/1334.original.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides1">
+              <img src="https://cdn.visitportugal.com/sites/default/files/styles/encontre_detalhe_poi_destaque/public/mediateca/N4.MON5067d.jpg?itok=YmAF20QT" style="width:100%">
+            </div>
+
+            <div class="mySlides1">
+              <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/44/5a/e5/santa-luzia-plus-small.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+          </div>
+          <br>
+        </div>
+<hr>
+    <br>
+        <div id="lagoadaesturranha">
+          <div class="resultados-text">
+            <h1>Praia Fluvial</h1><br>
+            <h3>Lagoa da Esturranha</h3>
+            Viana do Castelo <br>
+            Paisagem deslumbrante sobre a cidade
+          </div>
+          <div class="slideshow-container">
+
+            <div class="mySlides2">
+              <img src="https://lh3.googleusercontent.com/p/AF1QipOjp3v3_I2mD1oVL-YqjHhell_m8a8uFTUIz77-=s1600-w400" style="width:100%">
+            </div>
+
+            <div class="mySlides2">
+              <img src="https://partiupelomundo.com/wp-content/uploads/2020/07/visitar-a-serra-de-arga.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides2">
+              <img src="https://partiupelomundo.com/wp-content/uploads/2020/07/lagoas-mais-bonitas-da-serra-de-arga.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+          </div>
+          <br>
+          <hr>
+          <br>
+        </div>
+        <div id="saojoao">
+          <div class="resultados-text">
+            <h1>Parque de Merendas</h1><br>
+            <h3>Parque de Merendas de São João</h3>
+            Viana do Castelo <br>
+            Excelentes infraestruturas de apoio | Assadores | Casa de banho | Rio
+          </div>
+          <div class="slideshow-container">
+
+            <div class="mySlides3">
+              <img src="https://lh3.googleusercontent.com/proxy/jSp5Zaz-LcnRkUYJpsibOFefQYicbLF4BWnS4YSIAKjAH3eZBvtfD2uQTNXPNtFyTCqQrXJE001KLiki2DbwRRmMgp8J-QstIgL61UHnVTZmy9-v6Vn-7M5WFJp8YeCQrqw6VdZdeYg9r7XqxuQ_BaqO" style="width:100%">
+            </div>
+
+            <div class="mySlides3">
+              <img src="https://lh3.googleusercontent.com/proxy/Sp6VOAZNJhoO-MGIz3iUa9wXfzg74MWzk0GDWlcLaI-HY6mUuzNS2rpUJh_NgHjBVwcgiJ_Bc6ZzZWNb2Sj-pKCZ5ELAFENj_JF8F2_WyACqxDfvASpz3IqsS16WfKlwNdnXRJZRGSb_aF0kR78X4J5y" style="width:100%">
+            </div>
+
+            <div class="mySlides3">
+              <img src="https://lh3.googleusercontent.com/proxy/8fbOd_0TzFmn-Lg70QpdUMU_XBYtmGdtcSkkFOu20WgMtpyNvel3xHmxT8gAPVaQ2-HTW4Rzhj4L6aRW4_cPv4YiHBRFGhna5dx_XVUPr-UqjY6JHkW4akmBx93pgdewUPDWg4kHr3BB9GMD6L5pkdKn" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+          </div>
+          <br>
+          </div>
+        <div id="passadiçossistelo">
+          <div class="resultados-text">
+            <h1>Trilho</h1><br>
+            <h3>Passadiços de Sistelo</h3>
+            Arcos de Valdevez <br>
+            Paisagem deslumbrante sobre a cidade
+          </div>
+          <div class="slideshow-container">
+
+            <div class="mySlides4">
+              <img src="https://www.espiritoviajante.com/wp-content/uploads/2018/06/Passadi%C3%A7os-de-Sistelo-Fotos-Parque-Nacional-Peneda-Ger%C3%AAs.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides4">
+              <img src="https://images.impresa.pt/bcbm/2020-01-28-Passadico-Sistelo-3.jpg/original" style="width:100%">
+            </div>
+
+            <div class="mySlides4">
+              <img src="https://ominho.pt/wp-content/uploads/2020/06/Sistelo-e-do-Rio-Vez-em-Arcos-de-Valdevez-Sensibiliza%C3%A7%C3%A3o-Ambiental-.jpg?v=1591958464" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+          </div>
+          <br>
+        </div>
+        <div id="trilholagoadebertiandos">
+          <div class="resultados-text">
+          <h1>Trilho</h1><br>
+          <h3>Trilho das Lagoas de Bertiandos</h3>
+          Ponte de Lima <br>
+          Paisagem deslumbrante sobre a cidade
+        </div>
+        <div class="slideshow-container">
+
+          <div class="mySlides5">
+            <img src="https://lagoas.cm-pontedelima.pt/thumbs/cmpontedelima/uploads/poi/image/205/Percurso_Veiga_1_1000_620.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides5">
+            <img src="https://www.bertiandos.net/images/autarquia/noticias/30/imagem_30.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides5">
+            <img src="https://images.turismoenportugal.org/Lagoas-de-Bertiandos-e-Sao-Pedro-Ponte-de-Lima.jpg" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+        </div>
+        <br>
+      </div>
+        <div id="trilhofojodacabrita">
+          <div class="resultados-text">
+          <h1>Trilho</h1><br>
+          <h3>Trilho do Fojo da Cabrita</h3>
+          Arcos de Valdevez <br>
+          Paisagem deslumbrante sobre a cidade
+        </div>
+        <div class="slideshow-container">
+
+          <div class="mySlides6">
+            <img src="https://s3.amazonaws.com/gs-geo-images/b6e0711c-cc99-4a84-a2d5-f6056a391c0c_l.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides6">
+            <img src="https://s3.amazonaws.com/gs-geo-images/90ec908b-c06b-4cc9-87f1-4b6436131233_l.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides6">
+            <img src="https://s2.wklcdn.com/image_14/431460/11660367/7127003.jpg" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
+        </div>
+        <br>
+      </div>
+        <div id="percursodastapadas">
+          <div class="resultados-text">
+          <h1>Trilho</h1><br>
+          <h3>Percurso das Tapadas</h3>
+          Ponte de Lima <br>
+          Paisagem deslumbrante sobre a cidade
+        </div>
+        <div class="slideshow-container">
+
+          <div class="mySlides7">
+            <img src="https://www.visitepontedelima.pt/fotos/galerias/percurso-das-tapadas_209849622058b6fa2f1c09e.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides7">
+            <img src="https://www.visitepontedelima.pt/fotos/galerias/percurso_tapada_2_9548836325660811906a62.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides7">
+            <img src="https://www.visitepontedelima.pt/fotos/galerias/percurso-das-tapadas_02_37020888658b6fb2f77810.jpg" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 6)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 6)">&#10095;</a>
+        </div>
+        <br>
+      </div>
+        <div id="percursodasveigas">
+          <div class="resultados-text">
+          <h1>Trilho</h1><br>
+          <h3>Percurso da Veiga2</h3>
+          Ponte de Lima <br>
+          Paisagem deslumbrante sobre a cidade
+        </div>
+        <div class="slideshow-container">
+
+          <div class="mySlides8">
+            <img src="https://lagoas.cm-pontedelima.pt/cmpontedelima/uploads/poi/image/205/Percurso_Veiga.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides8">
+            <img src="https://www.visitepontedelima.pt/fotos/galerias/percurso_veiga_3_199344671556615ec8dce0a.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides8">
+            <img src="https://www.visitepontedelima.pt/fotos/galerias/percurso_veiga_5_126231017956616de34c273.jpg" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 7)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 7)">&#10095;</a>
+        </div>
+        <br>
+      </div>
+        <div id="castrolaboreiroacortegada">
+          <div class="resultados-text">
+          <h1>Trilho</h1><br>
+          <h3>Trilho Castro Laboreiro-Cortegada</h3>
+          Melgaço <br>
+          Paisagem deslumbrante sobre a cidade
+        </div>
+        <div class="slideshow-container">
+
+          <div class="mySlides9">
+            <img src="https://www.viaverde.pt/Portals/0/Imagens/Sugestoes/Tops/CastroLaboreiro/CastroLaboreiro_Destaque.jpg?w=570&h=320" style="width:100%">
+          </div>
+
+          <div class="mySlides9">
+            <img src="https://www.caminominotoribeiro.com/almacen/etapas/zoom_panoramicacortegada.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides9">
+            <img src="https://s2.wklcdn.com/image_72/2187582/41455454/26970152.jpg" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 8)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 8)">&#10095;</a>
+        </div>
+        <br>
+      </div>
+        <div id="trilhodamontaria">
+        <div class="resultados-text">
+        <h1>Trilho</h1><br>
+        <h3>Trilho da Montaria</h3>
+        Viana do Castelo <br>
+        Paisagem deslumbrante sobre a cidade
+      </div>
+      <div class="slideshow-container">
+
+        <div class="mySlides10">
+          <img src="https://www.serradearga.com/uploads/tours/0017/descubraminho_serra_de_arga_montaria_viana_do_castelo.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides10">
+          <img src="https://partiupelomundo.com/wp-content/uploads/2020/07/visitar-a-serra-de-arga.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides10">
+          <img src="http://4.bp.blogspot.com/_bM_v6cSxRZI/S_mzB0hRVCI/AAAAAAAAAlE/vdUGNQe626A/s1600/Fam%C3%ADlia+Feliz.JPG" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1, 9)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 9)">&#10095;</a>
+      </div>
+      <br>
+    </div>
+        <div id="ecoviadeermelo">
+          <div class="resultados-text">
+          <h1>Trilho</h1><br>
+          <h3>Ecovia de Ermelo</h3>
+          Arcos de Valdevez <br>
+          Paisagem deslumbrante sobre a cidade
+        </div>
+        <div class="slideshow-container">
+
+          <div class="mySlides11">
+            <img src="https://www.guiadacidade.pt/assets/capas_poi/capa_284547.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides11">
+            <img src="https://www.guiadacidade.pt/assets/capas_poi/capa_284547.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides11">
+            <img src="https://www.guiadacidade.pt/assets/capas_poi/capa_284547.jpg" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 10)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 10)">&#10095;</a>
+        </div>
+        <br>
+      </div>
+        <div id="trilhodopincho">
+          <div class="resultados-text">
+          <h1>Trilho</h1><br>
+          <h3>Trilho do Pincho</h3>
+          Viana do Castelo <br>
+          Paisagem deslumbrante sobre a cidade
+        </div>
+        <div class="slideshow-container">
+
+          <div class="mySlides12">
+            <img src="https://partiupelomundo.com/wp-content/uploads/2020/06/cascata-do-pincho-como-chegar.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides12">
+            <img src="https://wanderlifeblog.com/wp-content/uploads/2019/09/cascata-do-pincho-18.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides12">
+            <img src="https://www.descubraminho.com/uploads/tours/0003/descubraminho_lagoas_do_rio_ncora-1.jpg" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 11)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 11)">&#10095;</a>
+        </div>
+        <br>
+      </div>
+        <div id="trilhodoscanosdeagua">
+          <div class="resultados-text">
+          <h1>Trilho</h1><br>
+          <h3>Trilho dos Canos de Água</h3>
+          Viana do Castelo <br>
+          Paisagem deslumbrante sobre a cidade
+        </div>
+        <div class="slideshow-container">
+
+          <div class="mySlides13">
+            <img src="https://s1.wklcdn.com/image_16/486610/4865820/2478673Master.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides13">
+            <img src="https://c3.quickcachr.fotos.sapo.pt/i/u320713c3/9867841_fHJll.jpeg" style="width:100%">
+          </div>
+
+          <div class="mySlides13">
+            <img src="https://s2.wklcdn.com/image_16/486610/4865820/2478671.jpg" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 12)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 12)">&#10095;</a>
+        </div>
+        <br>
+      </div>
+        <div id="trilhodossobreiros">
+          <div class="resultados-text">
+          <h1>Trilho</h1><br>
+          <h3>Trilho dos Sobreiros</h3>
+          Viana do Castelo <br>
+          Paisagem deslumbrante sobre a cidade
+        </div>
+        <div class="slideshow-container">
+
+          <div class="mySlides14">
+            <img src="http://www.abracarnatureza.eu/wp-content/grand-media/image/thumb/Represa_da_Fraga.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides14">
+            <img src="https://www.wildest.pt/admin/fotos_eventos/8685415078873_1824622237784683_2565220671556314778_n.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides14">
+            <img src="http://www.abracarnatureza.eu/wp-content/grand-media/image/thumb/Lage_Negra.jpg" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 13)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 13)">&#10095;</a>
+        </div>
+        <br>
+      </div>
+        <div id="trilhodospastores">
+          <div class="resultados-text">
+          <h1>Trilho</h1><br>
+          <h3>Trilho dos Pastores</h3>
+          Viana do Castelo <br>
+          Paisagem deslumbrante sobre a cidade
+        </div>
+        <div class="slideshow-container">
+
+          <div class="mySlides15">
+            <img src="http://www.abracarnatureza.eu/wp-content/grand-media/image/S_do_minho_1_.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides15">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6pDFzsO_KFyG2qWV8gbXZqirgwylFmYsY8g&usqp=CAU" style="width:100%">
+          </div>
+
+          <div class="mySlides15">
+            <img src="http://www.abracarnatureza.eu/wp-content/grand-media/image/S_do_minho_3__1.jpg" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 14)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 14)">&#10095;</a>
+        </div>
+        <br>
+      </div>
+        <div id="praiafluvialdetaboao">
+          <div class="resultados-text">
+          <h1>Praia Fluvial</h1><br>
+          <h3>Praia Fluvial de Taboão</h3>
+          Paredes de Coura
+           <br>
+          Espaço relvado | Zona de Merendas | Bar/restaurante de apoio
+        </div>
+        <div class="slideshow-container">
+
+          <div class="mySlides16">
+            <img src="https://lh3.googleusercontent.com/proxy/nBAqj0EDeg4QeBgpe5izLzxCkv43BfhoU9nqeJQL0aySouCdHI64uo-F02vvfGbde4Md5KIrVZhGQLpsz_NHXsZOeyS1NVDjEkwwXatYUJKLTRM9_ibt_s1k1gpRetgHxiCQQKixD-Oc8eo4" style="width:100%">
+          </div>
+
+          <div class="mySlides16">
+            <img src="https://www.allaboutportugal.pt/imagethumb/1700x/resize/762476" style="width:100%">
+          </div>
+
+          <div class="mySlides16">
+            <img src="https://lh3.googleusercontent.com/proxy/vWDY8_rz03kDs6QZTKEAs_s8vl4zOnD5GXzk6wWXfPSJ7rH3fm93EAFZSh9jTzXsYlkqDoBq7oJh5JVKlrLdWKZflyImUm7n4PqulXqsVWNGfR6XQEPMBP3lInAtsOjwdhTHFrxxNPNB5scGFa2kX_kDsw" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 15)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 15)">&#10095;</a>
+        </div>
+        <br>
+      </div>
+        <div id="praiafluvialdaazenhadeestoraos">
+          <div class="resultados-text">
+          <h1>Praia Fluvial</h1><br>
+          <h3>Praia Fluvial da Azenha de Estorãos</h3>
+          Ponte de Lima
+           <br>
+          Pequena praia | Local romântico | Águas limpidas
+        </div>
+        <div class="slideshow-container">
+
+          <div class="mySlides17">
+            <img src="https://www.allaboutportugal.pt/imagethumb/1700x/resize/770990" style="width:100%">
+          </div>
+
+          <div class="mySlides17">
+            <img src="https://4.bp.blogspot.com/-ENitzY3mAsA/W1nPKlYR4jI/AAAAAAAAb0g/KRoDT9_v29Is9DxmbGicBBq9MQSinED0ACLcBGAs/s1600/praia-dos-estoraos%2B%252814%2529.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides17">
+            <img src="https://4.bp.blogspot.com/-eazMHLJbeW8/W0O1ZuhXKyI/AAAAAAAAFx0/qUrDT9Y06wc0nCniCynRdJw9xbhnNHwqQCLcBGAs/w1200-h630-p-k-no-nu/DSC_0121.JPG" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 16)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 16)">&#10095;</a>
+        </div>
+        <br>
+      </div>
+        <div id="praiafluvialdavaleta">
+          <div class="resultados-text">
+          <h1>Praia Fluvial</h1><br>
+          <h3>Praia Fluvial da Valeta</h3>
+          Ponte de Lima
+           <br>
+          Paisagem deslumbrante sobre a cidade
+        </div>
+        <div class="slideshow-container">
+
+          <div class="mySlides18">
+            <img src="https://www.cmav.pt/cmarcos/uploads/news/image/4305/valeta1___copia.JPG" style="width:100%">
+          </div>
+
+          <div class="mySlides18">
+            <img src="https://lh3.googleusercontent.com/proxy/lcU04Q9spP_sF-MwYMs0nOXhZEANae2BhOdsE522nNd3KG2hYSIvh4eSqciCaEcLYhgPkvpqcfnxEWCLbjDBst8t1nbPYVhccYFt20INlcmTjetoLFj65keggRpApgjMdb9NICF55Am1I79GE5GP3uJ22VY" style="width:100%">
+          </div>
+
+          <div class="mySlides18">
+            <img src="https://www.nit.pt/wp-content/uploads/2016/10/e44195e7-2e81-47a9-bec9-8899330f235e-754x394.jpg" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 17)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 17)">&#10095;</a>
+        </div>
+        <br>
+      </div>
+        <div id="praiadocabedelo">
+          <div class="resultados-text">
+          <h1>Praia</h1><br>
+          <h3>Praia do Cabedelo</h3>
+          Viana do Castelo
+           <br>
+          Derportos náuticos | Areal extenso
+        </div>
+        <div class="slideshow-container">
+
+          <div class="mySlides19">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/06/5c/f9/8c/praia-do-cabedelo.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides19">
+            <img src="https://cdn.visitportugal.com/sites/default/files/styles/encontre_detalhe_poi_destaque/public/mediateca/VianaCastelo_PraiaCabedelo_ABAE_660x371.jpg?itok=OF07Pdx_" style="width:100%">
+          </div>
+
+          <div class="mySlides19">
+            <img src="https://www.allaboutportugal.pt/imagethumb/1700x/resize/857038" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 18)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 18)">&#10095;</a>
+        </div>
+        <br>
+      </div>
+        <div id="praiadaarda">
+          <div class="resultados-text">
+          <h1>Praia</h1><br>
+          <h3>Praia da Arda</h3>
+          Viana do Castelo
+           <br>
+          Surf | Bodyboard | Areal extenso
+        </div>
+        <div class="slideshow-container">
+
+          <div class="mySlides20">
+            <img src="https://www.allaboutportugal.pt/imagethumb/1700x/resize/857038" style="width:100%">
+          </div>
+
+          <div class="mySlides20">
+            <img src="https://cdn.visitportugal.com/sites/default/files/styles/destinos_galeria/public/mediateca/shutterstock_180739850_PraiaDaArdaVianaDoCastelo_PN_PT_Francisco%20Caravana_660x371.jpg?itok=k1-PmadF" style="width:100%">
+          </div>
+
+          <div class="mySlides20">
+            <img src="https://images.impresa.pt/bcbm/2013-08-20-arda4.jpg/original" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 19)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 19)">&#10095;</a>
+        </div>
+        <br>
+      </div>
+        <div id="praiafluvialdalenta">
+          <div class="resultados-text">
+          <h1>Praia Fluvial</h1><br>
+          <h3>Praia Fluvial da Lenta</h3>
+          Vila Nova de Cerveira
+           <br>
+          Paisagem deslumbrante sobre a cidade
+        </div>
+        <div class="slideshow-container">
+
+          <div class="mySlides21">
+            <img src="https://www.allaboutportugal.pt/imagethumb/1700x/resize/857762" style="width:100%">
+          </div>
+
+          <div class="mySlides21">
+            <img src="https://www.evasoes.pt/files/2020/04/Imagem-28373137_GI29062017RF000000048_Easy-Resize.com_-960x640.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides21">
+            <img src="https://lifecooler.com/files/registos/imagens/399382/130894.jpg" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 20)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 20)">&#10095;</a>
+        </div>
+        <br>
+      </div>
+
+      <!--novos-->
+
+        <div id="percursocastrejo">Percuro Castrejo - Castro Laboreiro</div>
+        <div id="trilhopreguiça"></div>
+        <div id="trilhofenda">Trilho da Fenda e Cidade de Calcedónia</div>
+        <div id="trilhosetelagoas">Trilho das Sete Lagoas</div>
+        <div id="trilhomisarela">Trillho da Ponte da Misarela</div>
+        <div id="trilhobrandassistelo">
+          <div class="resultados-text">
+          <h1>Trilho</h1><br>
+          <h3>Trilho Brandas de Sistelo</h3>
+          Arcos de Valdevez
+           <br>
+          Paisagem deslumbrante sobre a cidade
+        </div>
+        <div class="slideshow-container">
+
+          <div class="mySlides22">
+            <img src="https://www.vagamundos.pt/wp-content/uploads/2018/11/1-2-3-600x450.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides22">
+            <img src="https://lh3.googleusercontent.com/proxy/K-vbnFi6yafED_ikj_SUMoM_uOoSDR_baje5FNHOZwEV-wOfuQgEbsZHlrI_aPVM_H6PlVrvhwxu73iZnM-zA7aMci47VVswq_9rRMsdzn9gvG5w2dZqgDJlTjG84Y-RphQhYAlDC5JaE0YscTv-3A" style="width:100%">
+          </div>
+
+          <div class="mySlides22">
+            <img src="https://www.vagamundos.pt/wp-content/uploads/2018/11/capa.jpg" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 21)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 21)">&#10095;</a>
+        </div>
+        <br>
+      </div>
+        <div id="merendassantaluzia">
+          <div class="resultados-text">
+        <h1>Parque de Merendas</h1><br>
+        <h3>Parque de Merendas de Santa Luzia</h3>
+        Viana do Castelo
+         <br>
+        Paisagem deslumbrante sobre a cidade
+      </div>
+      <div class="slideshow-container">
+
+        <div class="mySlides23">
+          <img src="https://lh3.googleusercontent.com/proxy/IitoitVd1q5QJxZAL0__2sIiOK72pff9uFcyp4jlhfVizkgGMtgN6hIP12Z7hq7Gsl9RWLW8GScvGEFpNwAkqxpYdFbtoz5tydyfu6c3vG4avlw" style="width:100%">
+        </div>
+
+        <div class="mySlides23">
+          <img src="https://1.bp.blogspot.com/-yJJUXbKimrY/TmJWYjvy7AI/AAAAAAAAAEA/rBxZJMfGeEY/s1600/Parque+de+Merendas+%25281%2529.JPG" style="width:100%">
+        </div>
+
+        <div class="mySlides23">
+          <img src="https://lh3.googleusercontent.com/proxy/SGotFke72qa8ova0XSDaWJs9HQ_wtcRMbomPyx7gr6b6AXUlTMfJx8dq60uhfwajQscz9TzCWdALkkqXBZ1eFIZ_xc5SMAyjq_1xq0OvHHgJ7TA" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1, 22)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 22)">&#10095;</a>
+      </div>
+      <br>
+    </div>
+        <div id="merendasnossasenhoracabeça">
+          <div class="resultados-text">
+        <h1>Parque de Merendas</h1><br>
+        <h3>Parque de Merendas da N. Sra da Cabeça</h3>
+        Caminha
+         <br>
+        Paisagem deslumbrante sobre a cidade
+      </div>
+      <div class="slideshow-container">
+
+        <div class="mySlides24">
+          <img src="https://www.allaboutportugal.pt/imagethumb/1700x/resize/841255" style="width:100%">
+        </div>
+
+        <div class="mySlides24">
+          <img src="https://c5.quickcachr.fotos.sapo.pt/i/ba202b1da/6462097_18jPU.jpeg" style="width:100%">
+        </div>
+
+        <div class="mySlides24">
+          <img src="https://www.allaboutportugal.pt/imagethumb/1700x/resize/841256" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1, 23)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 23)">&#10095;</a>
+      </div>
+      <br>
+    </div>
+        <div id="merendaslanheses">
+          <div class="resultados-text">
+        <h1>Parque de Merendas</h1><br>
+        <h3>Parque de Merendas de Lanheses</h3>
+        Ponte de Lima
+         <br>
+        Rio | Marginal beira rio
+      </div>
+      <div class="slideshow-container">
+
+        <div class="mySlides25">
+          <img src="https://lh3.googleusercontent.com/proxy/eQnzBhx6AUYyzuTiTlONvlIlJIavUSNSmqv4XG732KV1i06toBHi3CySSKEtHPc2J9KrNYLFP5HClPgj-nV2TL4RphN4izFKywOfljORAKkORKE" style="width:100%">
+        </div>
+
+        <div class="mySlides25">
+          <img src="https://lh3.googleusercontent.com/proxy/Wqr-r0twgM3dk6-ImbZZGFWiOb-Lh7YaeRWLG3qmvk2Y7cFUezz_6pvgoh6QwJDFg2iMhF5RQK2ironeeVxBpBn2PzcCeisozQ-na_giWhaGLw" style="width:100%">
+        </div>
+
+        <div class="mySlides25">
+          <img src="https://lh3.googleusercontent.com/proxy/PADelmdZJrHqQ5YTBLYc-s-vaucpUsvARol7d3MsKf2-ZNO67_qbMtoZ7A-Nw6kwBthMzPOPQMS_NgAzL3v1raMRVTSopb7eynFuEt0JCE-XbWA" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1, 24)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 24)">&#10095;</a>
+      </div>
+      <br>
+    </div>
+        <div id="merendasvilarmouros">
+          <div class="resultados-text">
+        <h1>Parque de Merendas</h1><br>
+        <h3>Parque de Merendas de Vilar de Mouros</h3>
+        Caminha
+         <br>
+        Paisagem deslumbrante sobre a cidade
+      </div>
+      <div class="slideshow-container">
+
+        <div class="mySlides26">
+          <img src="https://www.cm-caminha.pt/thumbs/cmcaminha/uploads/content_image/image/441/imagem_32_1_1024_2500.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides26">
+          <img src="https://www.cm-caminha.pt/thumbs/cmcaminha/uploads/poi/image/266/imagem_33_1_1024_2500.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides26">
+          <img src="https://oamarense.b-cdn.net/2020/05/3m1a4490_1_1024_2500.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1, 25)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 25)">&#10095;</a>
+      </div>
+      <br>
+    </div>
+        <div id="merendasboamorte">
+          <div class="resultados-text">
+      <h1>Parque de Merendas</h1><br>
+      <h3>Parque de Merendas da Boa Morte</h3>
+      Ponte de Lima
+       <br>
+      Paisagem deslumbrante sobre a cidade
+    </div>
+    <div class="slideshow-container">
+
+      <div class="mySlides27">
+        <img src="https://cdn1.igogo.pt/fotos/10/28/parque-de-merendas-de-sao-joao-baptista-2-2.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides27">
+        <img src="https://mapio.net/images-p/120560495.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides27">
+        <img src="https://mapio.net/images-p/120560471.jpg" style="width:100%">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1, 26)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 26)">&#10095;</a>
+    </div>
+    <br>
+  </div>
+        <div id="merendastaiao">
+          <div class="resultados-text">
+    <h1>Parque de Merendas</h1><br>
+    <h3>Parque de Merendas de Taião</h3>
+    Valença
+     <br>
+    Paisagem deslumbrante sobre a cidade
+  </div>
+  <div class="slideshow-container">
+
+    <div class="mySlides28">
+      <img src="https://visitvalenca.com/files/27/2746.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides28">
+      <img src="https://visitvalenca.com/files/31/3118.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides28">
+      <img src="https://www.allaboutportugal.pt/imagethumb/1700x/resize/842558" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1, 27)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 27)">&#10095;</a>
+  </div>
+  <br>
+</div>
+        <div id="merendasverdoejo">
+          <div class="resultados-text">
+    <h1>Parque de Merendas</h1><br>
+    <h3>Parque de Merendas do Verdoejo</h3>
+    Valença
+     <br>
+    Paisagem deslumbrante sobre a cidade
+  </div>
+  <div class="slideshow-container">
+
+    <div class="mySlides29">
+      <img src="https://visitvalenca.com/files/20/2043.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides29">
+      <img src="https://cdn.wegow.com/media/venues/verdoejo-parque-das-merendas/verdoejo-parque-das-merendas-1524520436.9.2560x1440.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides29">
+      <img src="https://lh3.googleusercontent.com/p/AF1QipPU-11AtmlOJh-_AaXxoDTEHbJhGPJE-yo2LNpm=s1600-w400" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1, 28)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 28)">&#10095;</a>
+  </div>
+  <br>
+</div>
+        <div id="merendasarvore">
+          <div class="resultados-text">
+    <h1>Parque de Merendas</h1><br>
+    <h3>Parque de Merendas da Árvore</h3>
+    Caminha
+     <br>
+    Paisagem deslumbrante sobre a cidade
+  </div>
+  <div class="slideshow-container">
+
+    <div class="mySlides30">
+      <img src="https://lh3.googleusercontent.com/p/AF1QipOTJhMgeDkKPU6-itfNbcC6oR2RaY7jlLKyQixS=s1600-w400" style="width:100%">
+    </div>
+
+    <div class="mySlides30">
+      <img src="https://www.cm-caminha.pt/cmcaminha/uploads/poi/image/255/imagem_12.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides30">
+      <img src="https://lh3.googleusercontent.com/p/AF1QipN6gLs7WQA4kDH3uP2OD70vJ65k9GNAy9_925by=s1600-w400" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1, 29)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 29)">&#10095;</a>
+  </div>
+  <br>
+</div>
+  <div id="praiavilarmouros">
+    <div class="resultados-text">
+    <h1>Praia Fluvial</h1><br>
+    <h3>Praia Fluvial de Vilar de Mouros</h3>
+    Caminha
+     <br>
+    Zona de Merendas |
+  </div>
+  <div class="slideshow-container">
+
+    <div class="mySlides31">
+      <img src="https://partiupelomundo.com/wp-content/uploads/2020/06/visitar-vilar-de-mouros.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides31">
+      <img src="https://radioaltominho.sapo.pt/wp-content/uploads/2018/04/20637811_1784282471601517_1167586789094670362_n.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides31">
+      <img src="https://www.cm-caminha.pt/thumbs/cmcaminha/uploads/content_image/image/391/3m1a4490_1_1024_2500.jpg" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1, 30)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 30)">&#10095;</a>
+  </div>
+  <br>
+</div>
+        <div id="praiapinheiros">
+            <div class="resultados-text">
+            <h1>Praia Fluvial</h1><br>
+            <h3>Praia Fluvial dos Pinheiros</h3>
+            Monção
+             <br>
+            Paisagem deslumbrante sobre a cidade
+          </div>
+          <div class="slideshow-container">
+
+            <div class="mySlides32">
+              <img src="https://www.allaboutportugal.pt/imagethumb/1700x/resize/867430" style="width:100%">
+            </div>
+
+            <div class="mySlides32">
+              <img src="https://s1.wklcdn.com/image_16/492807/32227509/20741440Master.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides32">
+              <img src="https://s2.wklcdn.com/image_16/492807/32227507/20741339Master.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 31)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 31)">&#10095;</a>
+          </div>
+          <br>
+        </div>
+        <div id="praiafortecao">
+          <div class="resultados-text">
+        <h1>Praia</h1><br>
+        <h3>Praia Forte do cão</h3>
+        Caminha
+         <br>
+        Paisagem deslumbrante sobre a cidade
+      </div>
+      <div class="slideshow-container">
+
+        <div class="mySlides33">
+          <img src="https://media-cdn.tripadvisor.com/media/photo-s/13/bb/d9/d8/forte-do-cao.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides33">
+          <img src="https://www.viagenseferias.net/wp-content/uploads/2017/04/fortedocao1.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides33">
+          <img src="https://www.cm-caminha.pt/cmcaminha/uploads/poi/image/242/forte_do_cao.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1, 32)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 32)">&#10095;</a>
+      </div>
+      <br>
+    </div>
+        <div id="praiamoledo">
+          <div class="resultados-text">
+        <h1>Praia</h1><br>
+        <h3>Praia de Moledo</h3>
+        Caminha
+         <br>
+        Paisagem deslumbrante sobre a cidade
+      </div>
+      <div class="slideshow-container">
+
+        <div class="mySlides34">
+          <img src="https://radioaltominho.sapo.pt/wp-content/uploads/2019/04/praia-moledo.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides34">
+          <img src="https://www.radiovaledominho.com/wp-content/uploads/2020/06/capa-14.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides34">
+          <img src="https://media.timeout.com/images/105267531/630/472/image.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1, 33)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 33)">&#10095;</a>
+      </div>
+      <br>
+    </div>
+        <div id="praiafozminho">
+          <div class="resultados-text">
+        <h1>Praia</h1><br>
+        <h3>Praia da Foz do Minho</h3>
+        Caminha
+         <br>
+        Paisagem deslumbrante sobre a cidade
+      </div>
+      <div class="slideshow-container">
+
+        <div class="mySlides35">
+          <img src="https://s2.wklcdn.com/image_24/743338/7942785/4583039Master.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides35">
+          <img src="https://www.cm-caminha.pt/thumbs/cmcaminha/uploads/poi/image/107/ecovia_praia_da_foz_do_minho_1_1024_2500.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides35">
+          <img src="https://cdn.visitportugal.com/sites/default/files/styles/encontre_detalhe_poi_destaque/public/mediateca/Caminha_Praia-da-Foz-do-Minho_RTAM_660x371.jpg?itok=yX_3ilvk" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1, 34)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 34)">&#10095;</a>
+      </div>
+      <br>
+    </div>
+        <div id="merendasvalinha">
+          <div class="resultados-text">
+        <h1>Parque de Merendas</h1><br>
+        <h3>Parque da Valinha</h3>
+        Viana do Castelo
+         <br>
+        Paisagem deslumbrante sobre a cidade
+      </div>
+      <div class="slideshow-container">
+
+        <div class="mySlides36">
+          <img src="https://lh3.googleusercontent.com/proxy/XCV238-296mDLrEChe6wwFqefRZ_jR_6ouLexv36nKNJhLrnFJiBGwmbllDkDG8e0d6vt5iCwUgokdMRk1LvQUfQaokOJhubjcBJfgWdOvdr2JF4E8U-Ce5aLtfdK8A9" style="width:100%">
+        </div>
+
+        <div class="mySlides36">
+          <img src="https://radioaltominho.sapo.pt/wp-content/uploads/2017/10/baldio.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides36">
+          <img src="https://s2.wklcdn.com/image_16/492807/17886743/11289083Master.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1, 35)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 35)">&#10095;</a>
+      </div>
+      <br>
+    </div>
+    <div id="trilhopordosol">
+      <div class="resultados-text">
+    <h1>Trilho</h1><br>
+    <h3>Trilho do Pôr do Sol</h3>
+    Viana do Castelo
+     <br>
+    Dificuldade moderada | Rio | Natureza
+  </div>
+  <div class="slideshow-container">
+
+    <div class="mySlides37">
+      <img src="images/trilhopordosol/DSC06168.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides37">
+      <img src="images/trilhopordosol/DSC06169.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides37">
+      <img src="images/trilhopordosol/DSC06170.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides37">
+      <img src="images/trilhopordosol/DSC06171.jpg" style="width:100%">
+    </div>
+    <div class="mySlides37">
+      <img src="images/trilhopordosol/DSC06174.jpg" style="width:100%">
+    </div>
+    <div class="mySlides37">
+      <img src="images/trilhopordosol/DSC06177.jpg" style="width:100%">
+    </div>
+    <div class="mySlides37">
+      <img src="images/trilhopordosol/DSC06180.jpg" style="width:100%">
+    </div>
+    <div class="mySlides37">
+      <img src="images/trilhopordosol/DSC06186.jpg" style="width:100%">
+    </div>
+    <div class="mySlides37">
+      <img src="images/trilhopordosol/DSC06198.jpg" style="width:100%">
+    </div>
+    <div class="mySlides37">
+      <img src="images/trilhopordosol/DSC06200.jpg" style="width:100%">
+    </div>
+    <div class="mySlides37">
+      <img src="images/trilhopordosol/DSC06202.jpg" style="width:100%">
+    </div>
+    <div class="mySlides37">
+      <img src="images/trilhopordosol/DSC06203.jpg" style="width:100%">
+    </div>
+    <div class="mySlides37">
+      <img src="images/trilhopordosol/DSC06206.jpg" style="width:100%">
+    </div>
+    <div class="mySlides37">
+      <img src="images/trilhopordosol/DSC06207.jpg" style="width:100%">
+    </div>
+    <div class="mySlides37">
+      <img src="images/trilhopordosol/DSC06208.jpg" style="width:100%">
+    </div>
+    <div class="mySlides37">
+      <img src="images/trilhopordosol/DSC06219.jpg" style="width:100%">
+    </div>
+
+
+
+    <a class="prev" onclick="plusSlides(-1, 36)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 36)">&#10095;</a>
+  </div>
+  <br>
+</div>
+
+<div id="merendasmontaria">
+  <div class="resultados-text">
+<h1>Parque de Merendas</h1><br>
+<h3>Parque de Merendas Da Montaria</h3>
+Viana do Castelo
+ <br>
+Casa de banho de apoio | Rio | Natureza | Trilhos | Relvado extenso
+</div>
+<div class="slideshow-container">
+
+<div class="mySlides38">
+  <img src="images/trilhopordosol/DSC06169.jpg" style="width:100%">
+</div>
+
+<div class="mySlides38">
+  <img src="images/trilhopordosol/DSC06168.jpg" style="width:100%">
+</div>
+
+<div class="mySlides38">
+  <img src="images/trilhopordosol/DSC06170.jpg" style="width:100%">
+</div>
+
+<div class="mySlides38">
+  <img src="images/trilhopordosol/DSC06171.jpg" style="width:100%">
+</div>
+<div class="mySlides38">
+  <img src="images/trilhopordosol/DSC06174.jpg" style="width:100%">
+</div>
+<div class="mySlides38">
+  <img src="images/trilhopordosol/DSC06177.jpg" style="width:100%">
+</div>
+<div class="mySlides38">
+  <img src="images/trilhopordosol/DSC06180.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1, 37)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, 37)">&#10095;</a>
+</div>
+<br>
+</div>
+<div id="trilhoentreambososrios">
+  <div class="resultados-text">
+  <h1>Trilho</h1><br>
+  <h3>Trilho Entre Ambos os Rios</h3>
+  Ponte da Barca
+  <br>
+  Paisagem deslumbrante sobre a cidade
+  </div>
+  <div class="slideshow-container">
+
+  <div class="mySlides39">
+  <img src="https://s0.wklcdn.com/image_18/563863/30691459/19692213Master.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides39">
+  <img src="https://s0.wklcdn.com/image_18/563863/30691471/19692465Master.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides39">
+  <img src="https://s0.wklcdn.com/image_18/563863/30691470/19692447Master.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 38)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 38)">&#10095;</a>
+  </div>
+  <br>
+</div>
+<div id="praiagondariz">
+  <div class="resultados-text">
+<h1>Praia Fluvial</h1><br>
+<h3>Praia Fluvial de Gondariz</h3>
+Arcos de Valdevez
+<br>
+Bar de apoio | Pequeno areal | Passadiços | Natureza
+</div>
+<div class="slideshow-container">
+
+<div class="mySlides40">
+<img src="https://www.allaboutportugal.pt/imagethumb/1700x/resize/858053" style="width:100%">
+</div>
+
+<div class="mySlides40">
+<img src="https://s0.wklcdn.com/image_18/563863/14285612/8859648Master.jpg" style="width:100%">
+</div>
+
+<div class="mySlides40">
+<img src="https://imgproxy.geocaching.com/7428d2ee318b40d980912b90b3f8240a182bc844?url=http%3A%2F%2Ffarm9.static.flickr.com%2F8005%2F6979724220_bc3fc57c7c.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1, 39)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, 39)">&#10095;</a>
+</div>
+<br>
+</div>
+        <div id="merendasmontefaro">Parque de Merendas do Monte do Faro</div>
+        <div id="merendasnossasenhoraconceiçao">Parque de Merendas do Jardim de Nossa Senhora da Conceição</div>
+        <div id="praiavilarinhofurnas">Praia Fluvial de Vilarinho das Furnas</div>
+        <div id="praiaermal">Praia Fluvial da Ilha do Ermal</div>
+        <div id="praiamexico">Praia Fluvial do México</div>
+        <div id="praiaalqueirao">Praia Fluvial do Alqueirão</div>
+        </div>
+
+      </div>
+
+    <div id="showhide">
+      <button id="hide" onclick="TestsFunction()">&#10094;</button>
+      <button id="show" onclick="TestsFunction()">&#10095;</button>
+    </div>
+  </body>
+  <script src="final.js">
+
+  </script>
+</html>
