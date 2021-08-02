@@ -292,6 +292,12 @@ let activ = [
     "tipo": "Parque de Merendas",
     "registration": new Date('2017-01-03'),
     "capacity": 7
+  },
+  { "nome": "Pria Fluvial do Pé do Negro",
+    "localidade": "Ponte de Lima",
+    "tipo": "Praia",
+    "registration": new Date('2017-01-03'),
+    "capacity": 7
   }
 ]
 var checkvianadocastelo = document.getElementById("vianadocastelo");
@@ -347,7 +353,7 @@ var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", 
 "mySlides14", "mySlides15", "mySlides16", "mySlides17", "mySlides18", "mySlides19", "mySlides20",
 "mySlides21", "mySlides22", "mySlides23", "mySlides24", "mySlides25", "mySlides26", "mySlides27",
 "mySlides28", "mySlides29", "mySlides30", "mySlides31", "mySlides32", "mySlides33", "mySlides34",
-"mySlides35", "mySlides36", "mySlides37", "mySlides38", "mySlides39", "mySlides40"]
+"mySlides35", "mySlides36", "mySlides37", "mySlides38", "mySlides39", "mySlides40", "mySlides41"]
 showSlides(1, 0);
 showSlides(1, 1);
 showSlides(1, 2);
@@ -388,6 +394,7 @@ showSlides(1, 36);
 showSlides(1, 37);
 showSlides(1, 38);
 showSlides(1, 39);
+showSlides(1, 40);
 
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
@@ -561,6 +568,7 @@ btnGet.addEventListener('click', () => {
 if ((checkpontedelima.checked == true) && (checkpraia.checked == true)){
     newArray9.forEach(emp9 => {
       document.getElementById("praiafluvialdaazenhadeestoraos").style.display = "block";
+      document.getElementById("praiapedonegro").style.display = "block";
     });
   }
 
@@ -1008,6 +1016,7 @@ if (checkpontedelima.checked == true){
           document.getElementById("percursodasveigas").style.display = "block";
           document.getElementById("percursodastapadas").style.display = "block";
           document.getElementById("merendasboamorte").style.display = "block";
+          document.getElementById("praiapedonegro").style.display = "block";
     });
   }
 
