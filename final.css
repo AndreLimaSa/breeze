@@ -258,7 +258,7 @@ hr {
     border-radius: 1em;
     border:0.06em solid #262626;
     padding: 5em 2em;
-    position: relative;
+    position: absolute;
     background-color: #0D0D0D;
     width: 65vw;
     margin-top: 70px;
@@ -289,7 +289,7 @@ hr {
   }
 
   .results-countainer {
-    position: relative;
+    position: absolute;
     border-radius: 1em;
     border:0.06em solid #262626;
     padding: 3em 2em;
