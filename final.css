@@ -240,6 +240,7 @@ hr {
 }
 @media only screen and (max-width : 750px) {
   #filtro-container {
+    width: 180px;
     border-radius: 1em;
     position: relative;
     padding:3em 3em;
