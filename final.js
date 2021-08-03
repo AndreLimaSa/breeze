@@ -1659,4 +1659,3 @@ function fullsize(){
     document.getElementById("slideshow-container").style.width = "300px";
 
 }
-
