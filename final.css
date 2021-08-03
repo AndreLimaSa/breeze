@@ -175,10 +175,10 @@ body {
 .resultados-text h1{
   font-family: 'Roboto', sans-serif;
   font-style: italic;
-  line-height: 0%;
+  line-height: 100%;
 }
 .resultados-text h3{
-  line-height: 0%;
+  line-height: 100%;
 }
 .resultados-text a{
   color: white;
@@ -199,7 +199,7 @@ li {
   list-style-type: none;
 }
 hr {
-  border: 0.06em solid #141414;
+  border: 0.06em solid white;
 }
 #showhide{
   display: none;
@@ -239,7 +239,7 @@ hr {
   overflow-y: scroll;
 }
 }
-@media only screen and (max-width : 650px) {
+@media only screen and (max-width : 750px) {
   #filtro-container {
     border-radius: 1em;
     padding:3em 3em;
@@ -271,7 +271,7 @@ hr {
   }
 }
 
-@media only screen and (max-width : 650px) {
+@media only screen and (max-width : 750px) {
 
   #filtro-container {
     border-radius: 1em;
@@ -315,6 +315,7 @@ hr {
     position: relative;
     width: 248px;
     margin-left: auto;
+    margin-right: auto;
   }
   .resultados-slider{
     position: relative;
@@ -322,7 +323,8 @@ hr {
     margin-right: auto;
   }
   hr {
-    border: 0.07em solid #191919;
+    border: 0.07em solid white;
+    width: 58vw;
   }
   .header img{
     height: 10vh;
