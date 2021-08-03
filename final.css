@@ -289,7 +289,7 @@ hr {
   }
 
   .results-countainer {
-
+    position: relative;
     border-radius: 1em;
     border:0.06em solid #262626;
     padding: 3em 2em;
