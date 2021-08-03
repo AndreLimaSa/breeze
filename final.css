@@ -291,8 +291,6 @@ hr {
     border-radius: 1em;
     border:0.06em solid #262626;
     padding: 3em 2em;
-    position: relative;
-    position: fixed;
     background-color: #0D0D0D;
     width: 70vw;
     margin-top: 50px;
