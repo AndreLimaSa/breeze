@@ -46,13 +46,13 @@ img {vertical-align: middle;}
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 2px;
+  padding: 16px;
   margin-top: -22px;
   color: black;
   font-weight: bold;
-  font-size: 2px;
+  font-size: 18px;
   transition: 0.6s ease;
-  border-radius: 0 1px 1px 0;
+  border-radius: 0 3px 3px 0;
   user-select: none;
 }
 #show:hover, #hide:hover {
@@ -67,6 +67,7 @@ img {vertical-align: middle;}
 .header {
   height: 8vh;
   background-color: #0D0D0D;
+
 }
 .header img{
   height: 12vh;
@@ -212,6 +213,7 @@ hr {
   border-radius: 1em;
   padding:3em 3em;
   border:0.06em solid #262626;
+  position: fixed;
   font-family: 'Montserrat', sans-serif;
   margin-left: 10px;
   margin-top: 70px;
@@ -240,11 +242,10 @@ hr {
 }
 @media only screen and (max-width : 750px) {
   #filtro-container {
-    width: 150px;
     border-radius: 1em;
-    position: relative;
     padding:3em 3em;
     border:0.06em solid #262626;
+    position: fixed;
     font-family: 'Montserrat', sans-serif;
     margin-top: 70px;
     margin-bottom: 100px;
@@ -258,13 +259,13 @@ hr {
 
     border-radius: 1em;
     border:0.06em solid #262626;
-    padding: 5em 2em;
+    padding: 0em 0em;
     position: relative;
+    position: fixed;
     background-color: #0D0D0D;
-    width: 65vw;
     margin-top: 70px;
-    margin-left: 300px;
-    margin-right: 6vw;
+    margin-left: 100px;
+    margin-right: 1vw;
     height: 61.5vh;
     overflow-y: scroll;
   }
@@ -273,11 +274,10 @@ hr {
 @media only screen and (max-width : 750px) {
 
   #filtro-container {
-    width: 150px;
-    position: relative;
     border-radius: 1em;
     padding:3em 3em;
     border:0.06em solid #262626;
+    position: fixed;
     font-family: 'Montserrat', sans-serif;
     margin-left: 30px;
     margin-top: 50px;
@@ -291,15 +291,16 @@ hr {
   }
 
   .results-countainer {
-    position: relative;
+
     border-radius: 1em;
     border:0.06em solid #262626;
-    padding: 3em 2em;
+    padding: 0em 0em;
+    position: relative;
     background-color: #0D0D0D;
-    width: 70vw;
+    width: 80vw;
     margin-top: 50px;
     margin-left: 30px;
-    margin-right: 3vw;
+    margin-right: 0px;
     height: 69.5vh;
     overflow-y: scroll;
   }
@@ -311,9 +312,10 @@ hr {
   }
   .resultados-text{
     position: relative;
-    width: 248px;
+    width: 180px;
     margin-left: auto;
     margin-right: auto;
+    background-color: black;
   }
   .resultados-slider{
     position: relative;
