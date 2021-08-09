@@ -87,6 +87,8 @@ body {
 #filtro-container {
   border-radius: 1em;
   padding:3em 3em;
+  bottom: 0px;
+  top: 0px;
   border:0.06em solid #262626;
   position: fixed;
   font-family: 'Montserrat', sans-serif;
