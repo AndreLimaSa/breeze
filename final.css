@@ -317,10 +317,9 @@ hr {
   }
   .resultados-text{
     position: relative;
-    width: 215px;
+    width: 225px;
     margin-left: auto;
     margin-right: auto;
-    background-color: black;
   }
   .resultados-slider{
     position: relative;
