@@ -204,13 +204,11 @@ hr {
 }
 #showhide{
   display: none;
-  position: fixed;
   margin-top: -300px;
   z-index: 6;
 }
 #show {
   display: none;
-  position: fixed;
   margin-top: -300px;
   z-index: 6;
 }
@@ -343,7 +341,6 @@ hr {
   #showhide{
     display: block;
     margin-top: -300px;
-    position: fixed;
     z-index: 6;
   }
 }
