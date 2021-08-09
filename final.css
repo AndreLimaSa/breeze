@@ -251,7 +251,7 @@ hr {
     padding:3em 3em;
     border:0.06em solid #262626;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 10px;
+    margin-top: 0px;
     color: white;
     background-color: #0D0D0D;
     font-size: 15px;
@@ -278,7 +278,6 @@ hr {
 @media only screen and (max-width : 750px) {
 
   #filtro-container {
-    position: absolute;
     border-radius: 1em;
     padding:3em 3em;
     border:0.06em solid #262626;
