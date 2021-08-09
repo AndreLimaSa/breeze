@@ -204,7 +204,7 @@ hr {
 }
 #showhide{
   display: none;
-  margin-top: -300px;
+  margin-top: -700px;
   z-index: 6;
 }
 #show {
