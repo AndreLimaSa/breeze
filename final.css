@@ -84,7 +84,7 @@ body {
   border-radius: 1em;
   padding:3em 3em;
   border:0.06em solid #262626;
-  position: relative;
+  position: fixed;
   font-family: 'Montserrat', sans-serif;
   margin-left: 150px;
   margin-top: 70px;
@@ -94,7 +94,6 @@ body {
   font-size: 15px;
   line-height: 150%;
   display: block;
-  overflow-y: scroll;
 }
 .results-countainer {
 
@@ -246,7 +245,7 @@ hr {
     border-radius: 1em;
     padding:3em 3em;
     border:0.06em solid #262626;
-    position: relative;
+    position: fixed;
     font-family: 'Montserrat', sans-serif;
     margin-top: 70px;
     margin-bottom: 100px;
@@ -279,7 +278,7 @@ hr {
     border-radius: 1em;
     padding:3em 3em;
     border:0.06em solid #262626;
-    position: relative;
+    position: fixed;
     font-family: 'Montserrat', sans-serif;
     margin-left: 30px;
     margin-top: 50px;
