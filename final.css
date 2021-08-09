@@ -205,10 +205,12 @@ hr {
 #showhide{
   display: none;
   position: fixed;
+  margin-top: 300px;
 }
 #show {
   display: none;
   position: fixed;
+  margin-top: 300px;
 }
 @media only screen and (max-width : 1250px) {
 #filtro-container {
