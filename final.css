@@ -245,7 +245,6 @@ hr {
     border-radius: 1em;
     padding:3em 3em;
     border:0.06em solid #262626;
-    position: fixed;
     font-family: 'Montserrat', sans-serif;
     margin-top: 70px;
     margin-bottom: 100px;
@@ -278,7 +277,6 @@ hr {
     border-radius: 1em;
     padding:3em 3em;
     border:0.06em solid #262626;
-    position: fixed;
     font-family: 'Montserrat', sans-serif;
     margin-left: 30px;
     margin-top: 50px;
