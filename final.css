@@ -317,7 +317,7 @@ hr {
   }
   .resultados-text{
     position: relative;
-    width: 180px;
+    width: 215px;
     margin-left: auto;
     margin-right: auto;
     background-color: black;
@@ -326,6 +326,7 @@ hr {
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    width: 275px;
   }
   hr {
     border: 0.07em solid white;
