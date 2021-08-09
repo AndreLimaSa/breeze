@@ -204,9 +204,11 @@ hr {
 }
 #showhide{
   display: none;
+  position: fixed;
 }
 #show {
   display: none;
+  position: fixed;
 }
 @media only screen and (max-width : 1250px) {
 #filtro-container {
@@ -336,5 +338,6 @@ hr {
   }
   #showhide{
     display: block;
+    position: fixed;
   }
 }
