@@ -204,12 +204,12 @@ hr {
 }
 #showhide{
   display: none;
-  position: fixed;
+  position: relative;
   margin-top: 300px;
 }
 #show {
   display: none;
-  position: fixed;
+  position: relative;
   margin-top: 300px;
 }
 @media only screen and (max-width : 1250px) {
@@ -341,5 +341,6 @@ hr {
   #showhide{
     display: block;
     margin-top: 300px;
+    position: relative;
   }
 }
