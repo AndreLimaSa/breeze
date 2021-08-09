@@ -278,7 +278,7 @@ hr {
     border-radius: 1em;
     padding:3em 3em;
     border:0.06em solid #262626;
-    position: fixed;
+    position: relative;
     font-family: 'Montserrat', sans-serif;
     margin-left: 30px;
     margin-top: 50px;
@@ -289,6 +289,7 @@ hr {
     line-height: 150%;
     display: block;
     z-index: 4;
+    overflow-y: scroll;
   }
 
   .results-countainer {
