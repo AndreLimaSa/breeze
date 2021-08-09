@@ -339,5 +339,6 @@ hr {
   #showhide{
     display: block;
     position: fixed;
+    margin-top: 300px;
   }
 }
