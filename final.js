@@ -1633,7 +1633,7 @@ function refreshPage(){
 if (window.innerWidth < 960) {
   btnGet.addEventListener('click', () => {
     var F = document.getElementById("filtro-container");
-    F.style.marginLeft = "-230px";
+    F.style.marginLeft = "-310px";
     document.getElementById("hide").style.display = "none";
     document.getElementById("show").style.display = "block";
   });
