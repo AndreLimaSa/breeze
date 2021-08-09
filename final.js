@@ -1648,7 +1648,7 @@ if (window.innerWidth < 960) {
       document.getElementById("show").style.display = "none";
       document.getElementById("hide").style.display = "block";
     } else {
-      T.style.marginLeft = "-230px";
+      T.style.marginLeft = "-270px";
       document.getElementById("hide").style.display = "none";
       document.getElementById("show").style.display = "block";
     }
