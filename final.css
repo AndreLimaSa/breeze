@@ -115,7 +115,7 @@ body {
   overflow-y: scroll;
 }
 #btnbtn {
-  position: absolute;
+  position: fixed;
   bottom: 0.5rem;
   right: 0.5rem;
   border-radius: 1em;
