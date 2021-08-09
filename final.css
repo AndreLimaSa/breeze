@@ -206,11 +206,13 @@ hr {
   display: none;
   position: fixed;
   margin-top: -300px;
+  z-index: 6;
 }
 #show {
   display: none;
   position: fixed;
   margin-top: -300px;
+  z-index: 6;
 }
 @media only screen and (max-width : 1250px) {
 #filtro-container {
@@ -342,5 +344,6 @@ hr {
     display: block;
     margin-top: -300px;
     position: fixed;
+    z-index: 6;
   }
 }
