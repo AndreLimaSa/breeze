@@ -120,14 +120,14 @@ body {
   right: auto;
   left: auto;
   border-radius: 1em;
-  padding: 10px 15.5px;
+  padding: 10px 35.5px;
   background-color: white;
   color: black;
   font-size: 15px;
 }
 #btn2 {
   border-radius: 1em;
-  padding: 10px 15.5px;
+  padding: 10px 35.5px;
   background-color: white;
   color: black;
   display: none;
@@ -136,7 +136,7 @@ body {
 }
 #btnbtn:hover {
   border-radius: 1em;
-  padding: 10px 15.5px;
+  padding: 10px 35.5px;
   background-color: black;
   color: white;
 
@@ -148,7 +148,7 @@ body {
   right: auto;
   left: auto;
   border-radius: 1em;
-  padding: 10px 24px;
+  padding: 10px 35.5px;
   background-color: black;
   color: white;
 
