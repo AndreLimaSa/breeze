@@ -126,7 +126,7 @@ body {
   font-size: 15px;
 }
 #btn2 {
- position: fixed;
+ position: relative;
   bottom: 2rem;
   right: auto;
   left: auto;
@@ -147,7 +147,7 @@ body {
   font-size: 15px;
 }
 #btn2:hover {
-  position: fixed;
+  position: relative;
   bottom: 2rem;
   right: auto;
   left: auto;
