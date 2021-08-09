@@ -116,7 +116,7 @@ body {
 }
 #btnbtn {
   position: fixed;
-  bottom: 4rem;
+  bottom: 2vh;
   right: auto;
   left: auto;
   border-radius: 1em;
