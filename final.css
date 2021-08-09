@@ -245,7 +245,7 @@ hr {
 @media only screen and (max-width : 750px) {
   #filtro-container {
     position: fixed;
-    width: 60vw;
+    width: 50vw;
     height: 61.5vh;
     border-radius: 1em;
     padding:3em 3em;
