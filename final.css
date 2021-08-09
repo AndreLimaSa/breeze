@@ -232,6 +232,7 @@ hr {
   font-size: 15px;
   line-height: 150%;
   display: block;
+  overflow: auto;
 }
 .results-countainer {
 
@@ -265,7 +266,7 @@ hr {
     font-size: 15px;
     line-height: 150%;
     display: block;
-    overflow-y: scroll;
+    overflow-y: auto;
   }
   .results-countainer {
 
@@ -299,7 +300,7 @@ hr {
     line-height: 150%;
     display: block;
     z-index: 4;
-    overflow-y: scroll;
+    overflow-y: auto;
   }
 
   .results-countainer {
