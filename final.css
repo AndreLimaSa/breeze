@@ -116,6 +116,8 @@ body {
 }
 #btnbtn {
   position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
   border-radius: 1em;
   padding: 10px 25.5px;
   background-color: white;
