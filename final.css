@@ -299,6 +299,8 @@ hr {
   #filtro-container {
     border-radius: 1em;
     padding:3em 3em;
+    bottom: 0px;
+    top: 0px;
     border:0.06em solid #262626;
     font-family: 'Montserrat', sans-serif;
     margin-left: 30px;
