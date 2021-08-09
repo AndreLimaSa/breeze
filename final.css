@@ -126,7 +126,7 @@ body {
   font-size: 15px;
 }
 #btn2 {
-  position: absolute;
+  position: fixed;
   bottom: 2rem;
   border-radius: 1em;
   padding: 10px 55.5px;
