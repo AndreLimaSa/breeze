@@ -1644,7 +1644,7 @@ if (window.innerWidth < 960) {
   function TestsFunction() {
       var T = document.getElementById("filtro-container");
       if (T.style.marginLeft === "-230px") {
-      T.style.marginLeft = "30px";
+      T.style.marginLeft = "10px";
       document.getElementById("show").style.display = "none";
       document.getElementById("hide").style.display = "block";
     } else {
