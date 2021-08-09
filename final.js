@@ -1643,12 +1643,12 @@ if (window.innerWidth < 960) {
 
   function TestsFunction() {
       var T = document.getElementById("filtro-container");
-      if (T.style.marginLeft === "-270px") {
+      if (T.style.marginLeft === "-230px") {
       T.style.marginLeft = "30px";
       document.getElementById("show").style.display = "none";
       document.getElementById("hide").style.display = "block";
     } else {
-      T.style.marginLeft = "-270px";
+      T.style.marginLeft = "-230px";
       document.getElementById("hide").style.display = "none";
       document.getElementById("show").style.display = "block";
     }
