@@ -246,7 +246,7 @@ hr {
     border-radius: 1em;
     padding:3em 3em;
     border:0.06em solid #262626;
-    position: fixed;
+    position: relative;
     font-family: 'Montserrat', sans-serif;
     margin-top: 70px;
     margin-bottom: 100px;
@@ -255,6 +255,7 @@ hr {
     font-size: 15px;
     line-height: 150%;
     display: block;
+    overflow-y: scroll;
   }
   .results-countainer {
 
