@@ -630,12 +630,13 @@ var newArray42 = activ.filter(function(element){
 btnGet.addEventListener('click', () => {
 
 
-if ((checkcerveira.checked == true) && (checkpraia.checked == true)){
+if ((checkcaminha.checked == true) && (checkpraia.checked == true)){
     newArray42.forEach(emp42 => {
       document.getElementById("praiavilarmouros").style.display = "block";
       document.getElementById("praiamoledo").style.display = "block";
       document.getElementById("praiafozminho").style.display = "block";
       document.getElementById("praiafortecao").style.display = "block";
+      document.getElementById("praiapinheiros").style.display = "block";
     });
   }
 
@@ -1016,6 +1017,8 @@ if (checkpontedelima.checked == true){
           document.getElementById("percursodasveigas").style.display = "block";
           document.getElementById("percursodastapadas").style.display = "block";
           document.getElementById("praiapedonegro").style.display = "block";
+          document.getElementById("merendaslanheses").style.display = "block";
+          document.getElementById("merendasboamorte").style.display = "block"
     });
   }
 
@@ -1257,6 +1260,7 @@ if (checkcaminha.checked == true){
           document.getElementById("praiafortecao").style.display = "block";
           document.getElementById("praiamoledo").style.display = "block";
           document.getElementById("praiafozminho").style.display = "block";
+          document.getElementById("merendasvilarmouros").style.display = "block";
     });
   }
 
@@ -1368,6 +1372,8 @@ if (checkpraia.checked == true){
           document.getElementById("praiafozminho").style.display = "block";
           document.getElementById("praiagondariz").style.display = "block";
           document.getElementById("praiafortecao").style.display = "block";
+          document.getElementById("praiapedonegro").style.display = "block";
+
 
 
 
