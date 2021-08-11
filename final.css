@@ -84,6 +84,14 @@ h1 {
 body {
   background-color: #121212;
 }
+#mar{
+  display: none;
+  padding-left: 15px;
+}
+#rio{
+  display: none;
+  padding-left: 15px;
+}
 #filtro-container {
   border-radius: 1em;
   padding:3em 3em;
