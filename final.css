@@ -92,7 +92,18 @@ body {
   display: none;
   padding-left: 15px;
 }
-
+#baixa{
+  display: none;
+  padding-left: 15px;
+}
+#moderada{
+  display: none;
+  padding-left: 15px;
+}
+#alta{
+  display: none;
+  padding-left: 15px;
+}
 #filtro-container {
   border-radius: 1em;
   padding:3em 3em;
