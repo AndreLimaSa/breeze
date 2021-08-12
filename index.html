@@ -259,9 +259,22 @@
       <label for="cores">Caminha</label>
 <br><br>
       <h2>Actividade</h2>
-      <input type="checkbox" class="radioCheckOne" id="trilho"></input>
+      <input type="checkbox" class="radioCheckOne" id="trilho" onclick="dificuldadeops()"></input>
       <label for="cores">Trilho</label>
-      <br><input type="checkbox" class="radioCheckOne" id="praia" onclick="praiaops()"></input>
+      <br>
+      <div id="baixa">
+        <input type="checkbox" class="radioCheckOne" id="baixacheck"></input>
+        <label id="baixalabel" for="cores">Dificuldade Baixa</label>
+      </div>
+      <div id="moderada">
+        <input type="checkbox" class="radioCheckOne" id="moderadacheck"></input>
+        <label id="moderadalabel" for="cores">Dificuldade Moderada</label>
+      </div>
+      <div id="alta">
+        <input type="checkbox" class="radioCheckOne" id="altacheck"></input>
+        <label id="altalabel" for="cores">Dificuldade Alta</label>
+      </div>
+      <input type="checkbox" class="radioCheckOne" id="praia" onclick="praiaops()"></input>
       <label for="cores">Praia</label>
       <br>
 <div id="mar">
@@ -379,7 +392,7 @@
             <h1>Praia Fluvial</h1>
             <h3>Lagoa da Esturranha</h3>
             Viana do Castelo <br>
-            Paisagem deslumbrante sobre a cidade
+            Pequena Lagoa | Água Cristalina | Natureza
             <br>
             <a href="https://www.google.com/maps/place/Lagoa+da+Esturranha/@41.79996,-8.7961277,16z/data=!4m2!3m1!1s0xd25b913300c383b:0x824983cb2bbc9448">Localização</a>
           </div>
@@ -439,7 +452,7 @@
             <h1>Trilho</h1>
             <h3>Passadiços de Sistelo</h3>
             Arcos de Valdevez <br>
-            Paisagem deslumbrante sobre a cidade
+            Percurso Longo | Difuculdade moderada baixa | Várias Etapas
             <br>
             <a href="https://g.page/passadicosdesistelo?share">Localização</a>
           </div>
@@ -469,7 +482,7 @@
           <h1>Trilho</h1>
           <h3>Trilho das Lagoas de Bertiandos</h3>
           Ponte de Lima <br>
-          Paisagem deslumbrante sobre a cidade
+          Dificuldade Baixa | Biodiversidade
           <br>
           <a href="https://www.google.com/maps/place/Centro+de+Interpreta%C3%A7%C3%A3o+Ambiental+das+Lagoas+de+Bertiandos+e+S%C3%A3o+Pedro+de+Arcos,+530+de,+Arcos/@41.7669325,-8.6325198,13z/data=!4m5!1m2!2m1!1strilho+lagoas+de+bertiandos!3m1!1s0xd25a5436e03b751:0xc91285120a259a1">Localização</a>
         </div>
@@ -499,7 +512,7 @@
           <h1>Trilho</h1>
           <h3>Trilho do Fojo da Cabrita</h3>
           Arcos de Valdevez <br>
-          Paisagem deslumbrante sobre a cidade
+          Interpretação de construções históricas | Dificuldade Moderada | Circular
           <br>
           <a href="https://www.google.com/maps/place/Oucias,+4970-105+Arcos+de+Valdevez/@41.9039076,-8.3614678,17z/data=!4m5!1m2!2m1!1soussias!3m1!1s0xd250cefa6da1d1f:0x8ac3b4a3c0b9474a">Localização</a>
         </div>
@@ -529,7 +542,7 @@
           <h1>Trilho</h1>
           <h3>Percurso das Tapadas</h3>
           Ponte de Lima <br>
-          Paisagem deslumbrante sobre a cidade
+          Dificuldade Baixa | Biodiversidade | Circular
           <br>
           <a href="https://www.google.com/maps/place/Ponte+de+Esteiro,+Bertiandos/@41.7647452,-8.6296571,17z/data=!4m2!3m1!1s0xd25a56f9e636d89:0x3a93601996a6e363">Localização</a>
         </div>
@@ -559,7 +572,7 @@
           <h1>Trilho</h1>
           <h3>Percurso da Veiga</h3>
           Ponte de Lima <br>
-          Paisagem deslumbrante sobre a cidade
+          Dificuldade Baixa | Biodiversidade | Circular
           <br>
           <a href="https://www.google.com/maps/place/Centro+de+Interpreta%C3%A7%C3%A3o+Ambiental+das+Lagoas+de+Bertiandos+e+S%C3%A3o+Pedro+de+Arcos,+530+de,+Arcos/@41.7646404,-8.6425559,17z/data=!4m2!3m1!1s0xd25a5436e03b751:0xc91285120a259a1">Localização</a>
         </div>
@@ -589,7 +602,7 @@
           <h1>Trilho</h1>
           <h3>Trilho Castro Laboreiro-Cortegada</h3>
           Melgaço <br>
-          Paisagem deslumbrante sobre a cidade
+          Dificuldade Elevada | Percurso Longo | Não Circular
           <br>
           <a href="https://www.google.com/maps/place/Castro+Laboreiro/@42.0031924,-8.1502637,12z/data=!4m2!3m1!1s0xd2569f7230df73f:0x72b7a94688b8011e">Localização</a>
         </div>
@@ -619,7 +632,7 @@
         <h1>Trilho</h1>
         <h3>Trilho da Montaria</h3>
         Viana do Castelo <br>
-        Paisagem deslumbrante sobre a cidade
+        Dificuldade Moderada | Circular | Rio | Zona de Merendas
         <br>
         <a href="https://www.google.com/maps/place/Igreja+de+S%C3%A3o+Louren%C3%A7o+da+Montaria,+470,+CM1179/@41.7903187,-8.7290137,17z/data=!4m2!3m1!1s0xd25bbcbd2f8bdeb:0x2acb6737b55fbabb">Localização</a>
       </div>
@@ -649,7 +662,7 @@
           <h1>Trilho</h1>
           <h3>Ecovia de Ermelo</h3>
           Arcos de Valdevez <br>
-          Paisagem deslumbrante sobre a cidade
+          Dificuldade Baixa | Não Circular | Natureza | Aldeia Histórica
           <br>
           <a href="https://www.google.com/maps/place/Mosteiro+de+Ermelo,+4970-140+Ermelo/@41.8507743,-8.2736367,15z/data=!4m6!1m3!3m2!1s0xd2511f45de45519:0x3f513b796ede684e!2sErmelo!3m1!1s0xd2511f480c9b0bf:0xea3712e70e969488">Localização</a>
         </div>
@@ -679,7 +692,7 @@
           <h1>Trilho</h1>
           <h3>Trilho do Pincho</h3>
           Viana do Castelo <br>
-          Paisagem deslumbrante sobre a cidade
+          Dificuldade Moderada | Circular | Rio | Praia
           <br>
           <a href="https://www.google.com/maps/place/Junta+de+Freguesia+de+Montaria,+Largo+do+Souto,+4925-490+Montaria/@41.791398,-8.7286494,17z/data=!4m2!3m1!1s0xd25bbc982e06553:0xe7c4834b18a3caec">Localização</a>
         </div>
@@ -709,7 +722,7 @@
           <h1>Trilho</h1>
           <h3>Trilho dos Canos de Água</h3>
           Viana do Castelo <br>
-          Paisagem deslumbrante sobre a cidade
+          Dificuldade Baixa | Circular | Parque de Merendas
           <br>
           <a href="https://www.google.com/maps/place/Santu%C3%A1rio+do+Sagrado+Cora%C3%A7%C3%A3o+de+Jesus+%2F+Monte+de+Santa+Luzia,+Monte+de+Santa+Luzia,mount+in+Santa+Lucia+POD+21,+4901-909+Viana+do+Castelo/@41.701299,-8.8341182,16z/data=!4m2!3m1!1s0xd25b7d5989a15bd:0x90b10612ff8a008">Localização</a>
         </div>
@@ -739,7 +752,7 @@
           <h1>Trilho</h1>
           <h3>Trilho dos Sobreiros</h3>
           Viana do Castelo <br>
-          Paisagem deslumbrante sobre a cidade
+          Dificuldade Moderada-Baixa | Circular
           <br>
           <a href="https://www.google.com/maps/place/Junta+de+Freguesia+de+Carvoeiro,+Carvoeiro/@41.6502231,-8.6623271,17z/data=!4m5!1m2!2m1!1sjunta+de+freguesia+de+carvoeiro!3m1!1s0xd25b3e1553b8473:0x943ebcdde28fb641">Localização</a>
         </div>
@@ -769,7 +782,7 @@
           <h1>Trilho</h1>
           <h3>Trilho dos Pastores</h3>
           Viana do Castelo <br>
-          Paisagem deslumbrante sobre a cidade
+          Dificuldade Moderada | Circular
           <br>
           <a href="https://www.google.com/maps/place/Junta+de+Freguesia+de+Montaria,+Largo+do+Souto,+4925-490+Montaria/@41.795514,-8.703021,13z/data=!4m2!3m1!1s0xd25bbc982e06553:0xe7c4834b18a3caec">Localização</a>
         </div>
@@ -831,7 +844,7 @@
           <h3>Praia Fluvial de Estorãos</h3>
           Ponte de Lima
            <br>
-          Pequena praia | Local romântico | Águas limpidas
+          Café/Bar | Rio Pouco Profundo
           <br>
           <a href="https://www.google.com/maps/place/Azenha+do+Rei,+Estor%C3%A3os,+1,+4990-590/@41.790123,-8.643811,17z/data=!4m2!3m1!1s0xd25a5272bd77319:0x9e581cfa68961cac">Localização</a>
         </div>
@@ -862,7 +875,7 @@
           <h3>Praia Fluvial da Valeta</h3>
           Arcos de Valdevez
            <br>
-          Paisagem deslumbrante sobre a cidade
+          Centro da Vila | Areal
           <br>
           <a href="https://www.google.com/maps/place/Praia+Fluvial+da+Valeta,+Largo+Visc.+do+Rio+Vez,+4970-484+Arcos+de+Valdevez/@41.848603,-8.4186976,17z/data=!4m2!3m1!1s0xd250bdffec921b7:0xcfb9ae46c3178e82">Localização</a>
         </div>
@@ -893,7 +906,7 @@
           <h3>Praia do Cabedelo</h3>
           Viana do Castelo
            <br>
-          Derportos náuticos | Areal extenso
+          Derportos náuticos | Areal extenso | Bares e Restaurantes
           <br>
           <a href="https://www.google.com/maps/place/Praia+do+Cabedelo,+Rua+Diogo+C%C3%A3o+224,+Darque/@41.6791293,-8.8325679,15z/data=!4m2!3m1!1s0xd25b61f629aeba5:0xf86f953ddde3b2f8">Localização</a>
         </div>
@@ -955,7 +968,7 @@
           <h3>Praia Fluvial da Lenta</h3>
           Vila Nova de Cerveira
            <br>
-          Paisagem deslumbrante sobre a cidade
+          Relvado | Bar/Restaurante
           <br>
           <a href="https://goo.gl/maps/NJmvRBCkizrpV8xM6">Localização</a>
         </div>
@@ -994,7 +1007,7 @@
           <h3>Trilho Brandas de Sistelo</h3>
           Arcos de Valdevez
            <br>
-          Paisagem deslumbrante sobre a cidade
+          Dificuldade Moderada Baixa | Miradouro | Pequena Rota
           <br>
           <a href="https://goo.gl/maps/kUQQ4h6x2FvzxRvG8">Localização</a>
         </div>
@@ -1025,7 +1038,7 @@
         <h3>Parque de Merendas de Santa Luzia</h3>
         Viana do Castelo
          <br>
-        Paisagem deslumbrante sobre a cidade
+        Miradouro | Muitas Mesas
         <br>
         <a href="https://goo.gl/maps/Ewd2nrZjk7wFAd5T8">Localização</a>
       </div>
@@ -1056,7 +1069,7 @@
         <h3>Parque de Merendas da N. Sra da Cabeça</h3>
         Caminha
          <br>
-        Paisagem deslumbrante sobre a cidade
+        Pontos de Água | Parque de Estacionamento Extenso
         <br>
         <a href="https://goo.gl/maps/WCHZwyKSYRC2opT9A">Localização</a>
       </div>
@@ -1087,7 +1100,7 @@
         <h3>Parque de Merendas de Lanheses</h3>
         Ponte de Lima
          <br>
-        Rio | Marginal beira rio
+        Rio | Marginal Beira Rio
         <br>
         <a href="https://goo.gl/maps/GADNZdbrcajqaUeHA">Localização</a>
       </div>
@@ -1118,7 +1131,7 @@
         <h3>Parque de Merendas de Vilar de Mouros</h3>
         Caminha
          <br>
-        Paisagem deslumbrante sobre a cidade
+        Praia Vigiada | Local Extenso
         <br>
         <a href="https://goo.gl/maps/HwWEdTsVGf3PpGHS8">Localização</a>
       </div>
@@ -1149,7 +1162,7 @@
       <h3>Parque de Merendas da Boa Morte</h3>
       Ponte de Lima
        <br>
-      Paisagem deslumbrante sobre a cidade
+      Local Extenso | Miradouro
       <br>
       <a href="https://goo.gl/maps/kSCcC8DJxkzX1Wn67">Localização</a>
     </div>
@@ -1180,7 +1193,7 @@
     <h3>Parque de Merendas de Taião</h3>
     Valença
      <br>
-    Paisagem deslumbrante sobre a cidade
+    Pontos de Água | WC | Relvado
     <br>
     <a href="https://goo.gl/maps/ASiu6gEKYFvWxMvn9">Localização</a>
   </div>
@@ -1211,7 +1224,7 @@
     <h3>Parque de Merendas do Verdoejo</h3>
     Valença
      <br>
-    Paisagem deslumbrante sobre a cidade
+    Rio | Pasadiços
     <br>
     <a href="https://goo.gl/maps/SDVQ1rDxzKymYJP6A">Localização</a>
   </div>
@@ -1242,7 +1255,7 @@
     <h3>Parque de Merendas da Árvore</h3>
     Caminha
      <br>
-    Paisagem deslumbrante sobre a cidade
+    Praia/Rio | Muita Sombra | Assadores
     <br>
     <a href="https://goo.gl/maps/4LH76GMwA5DqcX3V7">Localização</a>
   </div>
@@ -1304,7 +1317,7 @@
             <h3>Praia Fluvial dos Pinheiros</h3>
             Monção
              <br>
-            Paisagem deslumbrante sobre a cidade
+            Relvado | Para Todas Idades
             <br>
             <a href="https://goo.gl/maps/9ZLJgrp2BVaVTBnx6">Localização</a>
           </div>
@@ -1335,7 +1348,7 @@
         <h3>Praia Forte do cão</h3>
         Caminha
          <br>
-        Paisagem deslumbrante sobre a cidade
+        Praia Vigiada
         <br>
         <a href="https://goo.gl/maps/J5QkkR5WL1QmRuKE9">Localização</a>
       </div>
@@ -1366,7 +1379,7 @@
         <h3>Praia de Moledo</h3>
         Caminha
          <br>
-        Paisagem deslumbrante sobre a cidade
+        Praia Vigiada | Areal Extenso | Bar/Restaurante
         <br>
         <a href="https://goo.gl/maps/BJmsuv1D1sRuMNbA8">Localização</a>
       </div>
@@ -1397,7 +1410,7 @@
         <h3>Praia da Foz do Minho</h3>
         Caminha
          <br>
-        Paisagem deslumbrante sobre a cidade
+        Perto do Centro de Caminha | Praia Vigiada | Zona Protegida
         <br>
         <a href="https://goo.gl/maps/DMBADkZdHHgy52mZ6">Localização</a>
       </div>
@@ -1428,7 +1441,7 @@
         <h3>Parque de Valinhas</h3>
         Viana do Castelo
          <br>
-        Paisagem deslumbrante sobre a cidade
+        Ponto de Água | Desportos Tradicionais
         <br>
         <a href="https://goo.gl/maps/RrsJRfexNLiFM9sw6">Localização</a>
       </div>
@@ -1533,7 +1546,7 @@
 <h3>Parque de Merendas Da Montaria</h3>
 Viana do Castelo
  <br>
-Casa de banho de apoio | Rio | Natureza | Trilhos | Relvado extenso
+WC | Rio | Natureza | Trilhos | Relvado extenso
 <br>
 <a href="https://goo.gl/maps/q4LKeRNTyyvgHe7U7">Localização</a>
 </div>
@@ -1577,7 +1590,7 @@ Casa de banho de apoio | Rio | Natureza | Trilhos | Relvado extenso
   <h3>Trilho Entre Ambos os Rios</h3>
   Ponte da Barca
   <br>
-  Paisagem deslumbrante sobre a cidade
+  Dificuldade Moderada Baixa | Circular | Percurso 20km | Natureza
   <br>
   <a href="https://goo.gl/maps/GKzrt5XitFAtXAQ86">Localização</a>
   </div>
@@ -1640,7 +1653,7 @@ Bar de apoio | Pequeno areal | Passadiços | Natureza
 <h3>Praia Fluvial do Pé do Negro</h3>
 Ponte de Lima
 <br>
-Pequeno areal | Trilho | Natureza | Relaxante
+Pequeno areal | Natureza | Pouco Movimento | Água Cristalina
 <br>
 <a href="https://goo.gl/maps/sSVMoJqop3u8koJTA">Localização</a>
 </div>
