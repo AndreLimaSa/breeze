@@ -1083,7 +1083,7 @@ btnGet.addEventListener('click', () => {
 if (checkalta.checked == true){
   if ((checkalta.checked == true) && (checkvianadocastelo.checked == true)){
       return;}
-  if ((checkaltaalta.checked == true) && (checkpontedelima.checked == true)){
+  if ((checkalalta.checked == true) && (checkpontedelima.checked == true)){
       return;}
   if ((checkalta.checked == true) && (checkcaminha.checked == true)){
       return;}
