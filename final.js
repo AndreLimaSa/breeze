@@ -1492,6 +1492,8 @@ if (window.innerWidth < 960) {
 
 
   function TestsFunction() {
+
+    window.location.reload();
       var T = document.getElementById("filtro-container");
       if (T.style.marginLeft === "-310px") {
       T.style.marginLeft = "30px";
