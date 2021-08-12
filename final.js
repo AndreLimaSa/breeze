@@ -1097,7 +1097,7 @@ if (checkalta.checked == true){
                       return;}
                       if ((checkalta.checked == true) && (checkpontedabarca.checked == true)){
                           return;}
-                          if ((checkmalta.checked == true) && (checkmelgaço.checked == true)){
+                          if ((checkalta.checked == true) && (checkmelgaço.checked == true)){
                               return;}
                               if ((checkalta.checked == true) && (checkparedesdecoura.checked == true)){
                                   return;}
