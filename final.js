@@ -19,6 +19,9 @@ let btnGet = document.querySelector('#btnbtn');
 let myTable = document.querySelector('#table');
 var checkmar = document.getElementById("marcheck");
 var checkrio = document.getElementById("riocheck");
+var checkbaixa = document.getElementById("baixacheck");
+var checkmoderada = document.getElementById("moderadacheck");
+var checkalta = document.getElementById("altacheck");
 
 //function para checkar apenas um checkbox por grupo
 //grupo localidade
@@ -951,6 +954,15 @@ if (checktrilho.checked == true){
           return;}
       if ((checktrilho.checked == true) && (checkcaminha.checked == true)){
           return;}
+      if ((checktrilho.checked == true) && (checkbaixa.checked == true)){
+          return;
+              }
+      if ((checktrilho.checked == true) && (checkmoderada.checked == true)){
+          return;
+              }
+      if ((checktrilho.checked == true) && (checkalta.checked == true)){
+          return;
+                      }
           document.getElementById("passadiçossistelo").style.display = "block";
           document.getElementById("trilholagoadebertiandos").style.display = "block";
           document.getElementById("trilhofojodacabrita").style.display = "block";
@@ -973,6 +985,133 @@ if (checktrilho.checked == true){
   }
 
 });
+
+
+//Baixa
+
+
+btnGet.addEventListener('click', () => {
+
+
+if (checkbaixa.checked == true){
+  if ((checkbaixa.checked == true) && (checkvianadocastelo.checked == true)){
+      return;}
+  if ((checkbaixa.checked == true) && (checkpontedelima.checked == true)){
+      return;}
+  if ((checkbaixa.checked == true) && (checkcaminha.checked == true)){
+      return;}
+      if ((checkbaixa.checked == true) && (checkcerveira.checked == true)){
+          return;}
+          if ((checkbaixa.checked == true) && (checkmonçao.checked == true)){
+              return;}
+              if ((checkbaixa.checked == true) && (checkvalença.checked == true)){
+                  return;}
+                  if ((checkbaixa.checked == true) && (checkarcosdevaldevez.checked == true)){
+                      return;}
+                      if ((checkbaixa.checked == true) && (checkpontedabarca.checked == true)){
+                          return;}
+                          if ((checkbaixa.checked == true) && (checkmelgaço.checked == true)){
+                              return;}
+                              if ((checkbaixa.checked == true) && (checkparedesdecoura.checked == true)){
+                                  return;}
+
+
+
+console.log('aaa');
+          document.getElementById("percursodasveigas").style.display = "block";
+          document.getElementById("percursodastapadas").style.display = "block";
+          document.getElementById("ecoviadeermelo").style.display = "block";
+          document.getElementById("trilholagoadebertiandos").style.display = "block";
+          document.getElementById("trilhodoscanosdeagua").style.display = "block";
+          document.getElementById("trilhobrandassistelo").style.display = "block";
+          document.getElementById("trilhoentreambososrios").style.display = "block";
+    }
+  }
+
+);
+
+//Moderada
+
+
+btnGet.addEventListener('click', () => {
+
+
+if (checkmoderada.checked == true){
+  if ((checkmoderada.checked == true) && (checkvianadocastelo.checked == true)){
+      return;}
+  if ((checkmoderada.checked == true) && (checkpontedelima.checked == true)){
+      return;}
+  if ((checkmoderada.checked == true) && (checkcaminha.checked == true)){
+      return;}
+      if ((checkmoderada.checked == true) && (checkcerveira.checked == true)){
+          return;}
+          if ((checkmoderada.checked == true) && (checkmonçao.checked == true)){
+              return;}
+              if ((checkmoderada.checked == true) && (checkvalença.checked == true)){
+                  return;}
+                  if ((checkmoderada.checked == true) && (checkarcosdevaldevez.checked == true)){
+                      return;}
+                      if ((checkmoderada.checked == true) && (checkpontedabarca.checked == true)){
+                          return;}
+                          if ((checkmoderada.checked == true) && (checkmelgaço.checked == true)){
+                              return;}
+                              if ((checkmoderada.checked == true) && (checkparedesdecoura.checked == true)){
+                                  return;}
+
+
+
+console.log('aaa');
+          document.getElementById("trilhofojodacabrita").style.display = "block";
+          document.getElementById("trilhodamontaria").style.display = "block";
+          document.getElementById("passadicosdesistelo").style.display = "block";
+          document.getElementById("trilhodopincho").style.display = "block";
+          document.getElementById("trilhodossobreiros").style.display = "block";
+          document.getElementById("trilhodospastores").style.display = "block";
+          document.getElementById("trilhopordosol").style.display = "block";
+    }
+  }
+
+);
+
+
+//Alta
+
+
+btnGet.addEventListener('click', () => {
+
+
+if (checkalta.checked == true){
+  if ((checkalta.checked == true) && (checkvianadocastelo.checked == true)){
+      return;}
+  if ((checkaltaalta.checked == true) && (checkpontedelima.checked == true)){
+      return;}
+  if ((checkalta.checked == true) && (checkcaminha.checked == true)){
+      return;}
+      if ((checkalta.checked == true) && (checkcerveira.checked == true)){
+          return;}
+          if ((checkalta.checked == true) && (checkmonçao.checked == true)){
+              return;}
+              if ((checkalta.checked == true) && (checkvalença.checked == true)){
+                  return;}
+                  if ((checkalta.checked == true) && (checkarcosdevaldevez.checked == true)){
+                      return;}
+                      if ((checkalta.checked == true) && (checkpontedabarca.checked == true)){
+                          return;}
+                          if ((checkmalta.checked == true) && (checkmelgaço.checked == true)){
+                              return;}
+                              if ((checkalta.checked == true) && (checkparedesdecoura.checked == true)){
+                                  return;}
+
+
+
+console.log('aaa');
+          document.getElementById("castrolaboreiroacortegada").style.display = "block";
+          document.getElementById("trilhodamontaria").style.display = "block";
+    }
+  }
+
+);
+
 //Praia
 
 
@@ -1379,5 +1518,18 @@ function praiaops() {
   } else {
      document.getElementById("mar").style.display = "none";
      document.getElementById("rio").style.display = "none";
+  }
+}
+
+function dificuldadeops() {
+  var checkBox1 = document.getElementById("trilho");
+  if (checkBox1.checked == true){
+    document.getElementById("baixa").style.display = "block";
+    document.getElementById("moderada").style.display = "block";
+    document.getElementById("alta").style.display = "block";
+  } else {
+     document.getElementById("baixa").style.display = "none";
+     document.getElementById("moderada").style.display = "none";
+     document.getElementById("alta").style.display = "none";
   }
 }
